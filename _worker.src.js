@@ -631,22 +631,20 @@ async function proxyURL(proxyURL, url) {
 function checkSUB(host) {
 	if ((!sub || sub == '') && (addresses.length + addressesapi.length + addressescsv.length) == 0){
 		addresses = [
-			'Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz#加入我的频道t.me/CMLiussss解锁更多优选节点',
-			'127.0.0.1:1234#CFnat',
-			'visa.cn:443',
-			'singapore.com:8443',
-			'japan.com:2053',
-			'brazil.com:2083',
-			'russia.com:2087',
-			'www.gov.ua:2096',
-			'www.gco.gov.qa:8443',
-			'www.gov.se',
-			'time.is',
-			'www.wto.org:8443',
-			'fbi.gov:2087',
-			'icook.hk',
-			//'104.17.0.0#IPv4',
-			'[2606:4700::]#IPv6'
+			'202.181.27.218:14526#HK 1',
+			'206.237.1.223:33151#HK 2',
+			'206.237.4.137:16377#HK 3',
+			'47.76.62.62:8443#HK 4',
+			'141.98.197.103:44873#JP 1',
+			'3.113.64.82:443#JP 2',
+			'109.107.137.56:37316#JP 3',
+			'188.64.108.194:59810#SG 1',
+			'20.198.241.32:2053#SG 2',
+			'220.134.210.14:12161#TW 1',
+			'38.207.129.241:587#US 1',
+			'154.17.235.33:51075#US 2',
+			'154.17.239.70:36935#US 3',
+
 		];
 	}
 }
